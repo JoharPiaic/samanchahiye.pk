@@ -1,0 +1,63 @@
+body{
+background-color:lightgray;
+}
+
+.NAV{
+    border: 2px solid green;
+    position: relative;
+    text-align:center;
+    background-color: honeydew;
+}
+
+a{
+    padding: 10px;
+    padding-right:100px;
+    margin-top: 10px;
+    display:inline-flex;
+    color: black;
+    background-color:white
+   
+}
+.HEAD{
+    text-transform: capitalize;
+    background-color:rgb(14, 189, 14);
+    color: white;
+    padding: 0.01em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Pro{
+    display: inline;
+
+}
+.Pro a{
+    background-color: rgb(253, 253, 253);
+    border: 1px solid green;
+    width: 210px;
+    height: 150px;
+}
+
+a:hover{
+    background-color:green;
+}
+.logo{
+    background-color: white;
+    text-align: center;
+    padding-left:10px;
+}
+.footer{
+    padding:12px;
+    color: honeydew;
+    background-color: green;
+}
+
+.bottom li{
+display: inline-flex;
+padding: 30px;
+}
+h2:hover{
+    color:black;
+    text-shadow: 1px 2px rgb(255, 255, 255) ;
+}
